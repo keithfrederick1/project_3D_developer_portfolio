@@ -71,8 +71,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
+        <h2 className={`${styles.sectionHeadText}`}>Packages.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,11 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Check out our three tier packages, we'll chat about what works best for you in a quick 15-30 minute call. In each tier, you'll find a set of real-world examples showcasing our skills and experience. Bigger problems need better solutions, watch our demos so you can see our problem-solving chops, tech versatility, and project management skills in action.
         </motion.p>
       </div>
 

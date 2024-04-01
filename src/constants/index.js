@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Mobile-First Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "3D Model Site Integration",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend and Cloud Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Enterprise Tech",
     icon: creator,
   },
 ];
@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Fullstack Developer",
+    company_name: "Operation Spark",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2018 - March 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,7 +198,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Silver",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -219,7 +219,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Gold",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -240,7 +240,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Sapphire",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [

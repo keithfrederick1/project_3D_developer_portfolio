@@ -45,13 +45,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-black text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Keith Frederick, Founder - With over 6 years mastering TypeScript and JavaScript, coupled with a deep understanding of frameworks including React, Node.js, and Three.js, I engineer software solutions that transcend expectations. My approach is fueled by collaboration, rapid learning, and a commitment to crafting scalable, user-centric solutions that tackle real-world challenges head-on. Let's unite our talents to transform your visions into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
